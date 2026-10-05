@@ -15,13 +15,15 @@
         'Mathias Markl <mathias.markl@mukit.at>',
     ],
     'depends': [
-        'web_enterprise',
         'muk_web_group',
         'muk_web_chatter',
         'muk_web_dialog',
         'muk_web_appsbar',
         'muk_web_colors',
         'muk_web_refresh',
+    ],
+    'excludes': [
+        'web_enterprise',
     ],
     'data': [
         'templates/web_layout.xml',
